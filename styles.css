@@ -13,37 +13,44 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.chat-log {
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages {
     padding: 20px;
 }
 
-.chat-log p {
-    margin-bottom: 10px;
+.message {
+    margin-bottom: 20px;
 }
 
-#chat-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-}
-
-#user-input {
-    flex-grow: 1;
+#gpt-response {
+    background-color: #f7f7f7;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
 
-#send-btn {
-    padding: 10px 20px;
+#user-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+#send-button {
     background-color: #4CAF50;
     color: #fff;
+    padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
-#send-btn:hover {
+#send-button:hover {
     background-color: #3e8e41;
 }
